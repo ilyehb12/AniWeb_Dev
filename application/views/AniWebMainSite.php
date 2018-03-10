@@ -121,10 +121,16 @@
                    </div>
         </div>
 
+       
+
 
 
     </div>
 
+    
+        <div class="CRtile">
+                <P>AniWeb. Copyrights and trademarks for the anime, and other promotional materials are held by their respective owners and their use is allowed under the fair use clause of the Copyright Law.</P>
+        </div>
 
 
 </body>
