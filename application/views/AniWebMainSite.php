@@ -33,23 +33,23 @@
         <div class="animetile">
 
             <div class="animpictile">
-                 <img class="animpic" src="<?php echo base_url(); ?>public/SRC/akame_ga_kill.jpg">
-                 <p class="animtitle">Akame Ga Kill!</p>
+                 <img class="animpic" src="<?php echo base_url(); ?>public/SRC/akame_ga_kill.jpg" onclick="watchakamegakill()">
+                 <p class="animtitle" onclick="watchakamegakill()">Akame Ga Kill!</p>
             </div>
                
             <div class="animpictile">
-                 <img class="animpic" src="<?php echo base_url(); ?>public/SRC/blend_s.jpg">
-                 <p class="animtitle">Blend S</p>
+                 <img class="animpic" src="<?php echo base_url(); ?>public/SRC/blend_s.jpg" onclick="watchblends()">
+                 <p class="animtitle" onclick="watchblends()">Blend S</p>
             </div>
                
             <div class="animpictile">
-                  <img class="animpic" src="<?php echo base_url(); ?>public/SRC/chaos_head.jpg">
-                  <p class="animtitle">Chaos;Head</p>
+                  <img class="animpic" src="<?php echo base_url(); ?>public/SRC/chaos_head.jpg" onclick="watchchaoshead()">
+                  <p class="animtitle" onclick="watchchaoshead()">Chaos;Head</p>
             </div>
               
             <div class="animpictile">
-                <img class="animpic" src="<?php echo base_url(); ?>public/SRC/dan_machi.jpg">
-                <p class="animtitle">DanMachi</p>
+                <img class="animpic" src="<?php echo base_url(); ?>public/SRC/dan_machi.jpg" onclick="watchdanmachi()">
+                <p class="animtitle" onclick="watchdanmachi()">DanMachi</p>
             </div>
                 
 
@@ -57,67 +57,67 @@
         
         <div class="animetile">
                 <div class="animpictile">
-                        <img class="animpic" src="<?php echo base_url(); ?>public/SRC/akame_ga_kill.jpg">
-                        <p class="animtitle">Eromanga Sensei</p>
+                        <img class="animpic" src="<?php echo base_url(); ?>public/SRC/akame_ga_kill.jpg" onclick="watcheromangasensei()">
+                        <p class="animtitle" onclick="watcheromangasensei()">Eromanga Sensei</p>
                    </div>
                       
                    <div class="animpictile">
-                        <img class="animpic" src="<?php echo base_url(); ?>public/SRC/blend_s.jpg">
-                        <p class="animtitle">Fate/Zero</p>
+                        <img class="animpic" src="<?php echo base_url(); ?>public/SRC/blend_s.jpg" onclick="watchfatezero()">
+                        <p class="animtitle" onclick="watchfatezero()">Fate/Zero</p>
                    </div>
                       
                    <div class="animpictile">
-                         <img class="animpic" src="<?php echo base_url(); ?>public/SRC/chaos_head.jpg">
-                         <p class="animtitle">Gabriel Dropout</p>
+                         <img class="animpic" src="<?php echo base_url(); ?>public/SRC/chaos_head.jpg" onclick="watchgabrieldropout()">
+                         <p class="animtitle" onclick="watchgabrieldropout()">Gabriel Dropout</p>
                    </div>
                      
                    <div class="animpictile">
-                       <img class="animpic" src="<?php echo base_url(); ?>public/SRC/dan_machi.jpg">
-                       <p class="animtitle">Himouto Umaru-chan</p>
+                       <img class="animpic" src="<?php echo base_url(); ?>public/SRC/dan_machi.jpg" onclick="watchhimoutoumaruchan()">
+                       <p class="animtitle" onclick="watchhimoutoumaruchan()">Himouto Umaru-chan</p>
                    </div>
         </div>
 
         <div class="animetile">
                 <div class="animpictile">
-                        <img class="animpic" src="<?php echo base_url(); ?>public/SRC/akame_ga_kill.jpg">
-                        <p class="animtitle">Infinite Stratos</p>
+                        <img class="animpic" src="<?php echo base_url(); ?>public/SRC/akame_ga_kill.jpg" onclick="watchinfinitestratos()">
+                        <p class="animtitle" onclick="watchinfinitestratos()">Infinite Stratos</p>
                    </div>
                       
                    <div class="animpictile">
-                        <img class="animpic" src="<?php echo base_url(); ?>public/SRC/blend_s.jpg">
+                        <img class="animpic" src="<?php echo base_url(); ?>public/SRC/blend_s.jpg" onclick="watchloghorizon()">
                         <p class="animtitle">Log Horizon</p>
                    </div>
                       
                    <div class="animpictile">
-                         <img class="animpic" src="<?php echo base_url(); ?>public/SRC/chaos_head.jpg">
-                         <p class="animtitle">Made in Abyss</p>
+                         <img class="animpic" src="<?php echo base_url(); ?>public/SRC/chaos_head.jpg" onclick="watchmadeinabyss()">
+                         <p class="animtitle" onclick="watchloghorizon()">Made in Abyss</p>
                    </div>
                      
                    <div class="animpictile">
-                       <img class="animpic" src="<?php echo base_url(); ?>public/SRC/dan_machi.jpg">
-                       <p class="animtitle">No Game No Life</p>
+                       <img class="animpic" src="<?php echo base_url(); ?>public/SRC/dan_machi.jpg" onclick="watchnogamenolife()">
+                       <p class="animtitle" onclick="watchnogamenolife()">No Game No Life</p>
                    </div>
         </div>
 
         <div class="animetile">
                 <div class="animpictile">
-                        <img class="animpic" src="<?php echo base_url(); ?>public/SRC/akame_ga_kill.jpg">
-                        <p class="animtitle">Rakudai Kishi</p>
+                        <img class="animpic" src="<?php echo base_url(); ?>public/SRC/akame_ga_kill.jpg" onclick="watchrakudaikishi()">
+                        <p class="animtitle" onclick="watchrakudaikishi()">Rakudai Kishi</p>
                    </div>
                       
                    <div class="animpictile">
-                        <img class="animpic" src="<?php echo base_url(); ?>public/SRC/blend_s.jpg">
-                        <p class="animtitle">S.A.O.</p>
+                        <img class="animpic" src="<?php echo base_url(); ?>public/SRC/blend_s.jpg" onclick="watchsao()">
+                        <p class="animtitle" onclick="watchsao()">S.A.O.</p>
                    </div>
                       
                    <div class="animpictile">
-                         <img class="animpic" src="<?php echo base_url(); ?>public/SRC/chaos_head.jpg">
-                         <p class="animtitle">Tokyo Ghoul</p>
+                         <img class="animpic" src="<?php echo base_url(); ?>public/SRC/chaos_head.jpg" onclick="watchtokyoghoul()">
+                         <p class="animtitle" onclick="watchtokyoghoul()">Tokyo Ghoul</p>
                    </div>
                      
                    <div class="animpictile">
-                       <img class="animpic" src="<?php echo base_url(); ?>public/SRC/dan_machi.jpg">
-                       <p class="animtitle">Re:Zero</p>
+                       <img class="animpic" src="<?php echo base_url(); ?>public/SRC/dan_machi.jpg" onclick="watchrezero()">
+                       <p class="animtitle" onclick="watchrezero()">Re:Zero</p>
                    </div>
         </div>
 
