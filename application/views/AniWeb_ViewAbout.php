@@ -17,10 +17,10 @@
     </div>
 
     <div class="headnav">
-            <button class="btnheadnavhome" id="btnHOme" onclick="returnhome()">HOME</button>
-            <button class="btnheadnavanimelist">Anime List</button>
-            <button class="btnheadnavgenres">Genres</button>
-            <button class="btnheadnavabout">About</button>
+            <button class="btnheadnavhome" id="btnHome" onclick="returnhome()">HOME</button>
+            <button class="btnheadnavanimelist" id="btnAnimeList" onclick="goanimelist()">Anime List</button>
+            <button class="btnheadnavgenres" onclick="gogenrelist()">Genres</button>
+            <button class="btnheadnavabout" onclick="goabout()">About</button>
     </div>
 
     <div class="promotionnote">

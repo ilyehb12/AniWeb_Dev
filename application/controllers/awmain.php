@@ -27,11 +27,27 @@ class awmain extends CI_Controller {
 		$this->load->view('aw_footer');
 	}
 
-	public function viewanime()
+	public function viewanimelist()
 	{
 		$this->load->helper('url');
 		$this->load->view('aw_header');
-		$this->load->view('AniWeb_ViewAnime');
+		$this->load->view('AniWeb_ViewAnimeList');
+		$this->load->view('aw_footer');
+	}
+
+	public function viewgenrelist()
+	{
+		$this->load->helper('url');
+		$this->load->view('aw_header');
+		$this->load->view('AniWeb_ViewGenreList');
+		$this->load->view('aw_footer');
+	}
+
+	public function viewabout()
+	{
+		$this->load->helper('url');
+		$this->load->view('aw_header');
+		$this->load->view('AniWeb_ViewAbout');
 		$this->load->view('aw_footer');
 	}
 }

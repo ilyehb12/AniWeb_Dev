@@ -17,10 +17,10 @@
     </div>
 
     <div class="headnav">
-            <button class="btnheadnavhome" id="btnHome" onclick="returnhome()">HOME</button>
+        <button class="btnheadnavhome" id="btnHome" onclick="returnhome()">HOME</button>
             <button class="btnheadnavanimelist" id="btnAnimeList" onclick="goanimelist()">Anime List</button>
-            <button class="btnheadnavgenres">Genres</button>
-            <button class="btnheadnavabout">About</button>
+            <button class="btnheadnavgenres" onclick="gogenrelist()">Genres</button>
+            <button class="btnheadnavabout" onclick="goabout()">About</button>
     </div>
 
     <div class="promotionnote">
@@ -58,66 +58,66 @@
         <div class="animetile">
                 <div class="animpictile">
                         <img class="animpic" src="<?php echo base_url(); ?>public/SRC/akame_ga_kill.jpg">
-                        <p class="animtitle">Akame Ga Kill!</p>
+                        <p class="animtitle">Eromanga Sensei</p>
                    </div>
                       
                    <div class="animpictile">
                         <img class="animpic" src="<?php echo base_url(); ?>public/SRC/blend_s.jpg">
-                        <p class="animtitle">Blend S</p>
+                        <p class="animtitle">Fate/Zero</p>
                    </div>
                       
                    <div class="animpictile">
                          <img class="animpic" src="<?php echo base_url(); ?>public/SRC/chaos_head.jpg">
-                         <p class="animtitle">Chaos;Head</p>
+                         <p class="animtitle">Gabriel Dropout</p>
                    </div>
                      
                    <div class="animpictile">
                        <img class="animpic" src="<?php echo base_url(); ?>public/SRC/dan_machi.jpg">
-                       <p class="animtitle">DanMachi</p>
+                       <p class="animtitle">Himouto Umaru-chan</p>
                    </div>
         </div>
 
         <div class="animetile">
                 <div class="animpictile">
                         <img class="animpic" src="<?php echo base_url(); ?>public/SRC/akame_ga_kill.jpg">
-                        <p class="animtitle">Akame Ga Kill!</p>
+                        <p class="animtitle">Infinite Stratos</p>
                    </div>
                       
                    <div class="animpictile">
                         <img class="animpic" src="<?php echo base_url(); ?>public/SRC/blend_s.jpg">
-                        <p class="animtitle">Blend S</p>
+                        <p class="animtitle">Log Horizon</p>
                    </div>
                       
                    <div class="animpictile">
                          <img class="animpic" src="<?php echo base_url(); ?>public/SRC/chaos_head.jpg">
-                         <p class="animtitle">Chaos;Head</p>
+                         <p class="animtitle">Made in Abyss</p>
                    </div>
                      
                    <div class="animpictile">
                        <img class="animpic" src="<?php echo base_url(); ?>public/SRC/dan_machi.jpg">
-                       <p class="animtitle">DanMachi</p>
+                       <p class="animtitle">No Game No Life</p>
                    </div>
         </div>
 
         <div class="animetile">
                 <div class="animpictile">
                         <img class="animpic" src="<?php echo base_url(); ?>public/SRC/akame_ga_kill.jpg">
-                        <p class="animtitle">Akame Ga Kill!</p>
+                        <p class="animtitle">Rakudai Kishi</p>
                    </div>
                       
                    <div class="animpictile">
                         <img class="animpic" src="<?php echo base_url(); ?>public/SRC/blend_s.jpg">
-                        <p class="animtitle">Blend S</p>
+                        <p class="animtitle">S.A.O.</p>
                    </div>
                       
                    <div class="animpictile">
                          <img class="animpic" src="<?php echo base_url(); ?>public/SRC/chaos_head.jpg">
-                         <p class="animtitle">Chaos;Head</p>
+                         <p class="animtitle">Tokyo Ghoul</p>
                    </div>
                      
                    <div class="animpictile">
                        <img class="animpic" src="<?php echo base_url(); ?>public/SRC/dan_machi.jpg">
-                       <p class="animtitle">DanMachi</p>
+                       <p class="animtitle">Re:Zero</p>
                    </div>
         </div>
 
@@ -129,7 +129,7 @@
 
     
         <div class="CRtile">
-                <P>AniWeb. Copyrights and trademarks for the anime, and other promotional materials are held by their respective owners and their use is allowed under the fair use clause of the Copyright Law.</P>
+                <P class="crpara">AniWeb. Copyrights and trademarks for the anime, and other promotional materials are held by their respective owners and their use is allowed under the fair use clause of the Copyright Law.</P>
         </div>
 
 

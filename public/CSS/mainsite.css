@@ -157,6 +157,9 @@
 .CRtile{
     background-color: #161616;  
     margin: auto;
-    color: white;
     
+    
+}
+.crpara{
+    color: dimgray;
 }
