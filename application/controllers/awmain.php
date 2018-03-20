@@ -26,4 +26,12 @@ class awmain extends CI_Controller {
 		$this->load->view('AniWebMainSite');
 		$this->load->view('aw_footer');
 	}
+
+	public function viewanime()
+	{
+		$this->load->helper('url');
+		$this->load->view('aw_header');
+		$this->load->view('AniWeb_ViewAnime');
+		$this->load->view('aw_footer');
+	}
 }
