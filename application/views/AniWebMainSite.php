@@ -64,7 +64,7 @@
                    <div class="animpictile">
                         <img class="animpic" src="<?php echo base_url(); ?>public/SRC/blend_s.jpg" onclick="watchfatezero()">
                         <p class="animtitle" onclick="watchfatezero()">Fate/Zero</p>
-                   </div>
+                   </div><map name=""></map>
                       
                    <div class="animpictile">
                          <img class="animpic" src="<?php echo base_url(); ?>public/SRC/chaos_head.jpg" onclick="watchgabrieldropout()">
