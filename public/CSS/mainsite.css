@@ -125,22 +125,48 @@
 .animpic{
     height: 200px;
     width: 140px;
+    cursor: pointer;
   
 }
+
+.animpiclist{
+    height: 250px;
+    width: 180px;
+    cursor: pointer;
+
+    margin-bottom: 1%;
+}
+
 
 .animpictile{
     margin-top: 0.5%;
     margin-left: 7.3%;
-    margin-bottom: 0.5%
+    margin-bottom: 0.5%;
+    
+}
+
+.genretitletile{
+    height: 110%;
+    margin-top: 1%;
+    margin-left: 3.6%;
+    margin-right: 3.6%;
+    margin-bottom: 1%;
 }
 
 .animetile{
     display: -webkit-inline-flex;
     display: flex;
     margin: 2% 2%;
+
 }
 
-.animelisttiles,.animeviewtile{
+.genretile{
+  
+    margin: 2% 2%;
+    background-color: #202020;
+}
+
+.animelisttiles,.animeviewtiles{
     background-color: #202020;
     padding-top: 0.3%;
 
@@ -151,8 +177,39 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
     color: white;
-    margin-top: -0.1%
+    margin-top: -0.1%;
+    cursor: pointer;
+    
+}
 
+.genretitles{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+    color: white;
+    margin-top: -0.1%;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+
+.genretitle{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-top: -0.1%;
+    cursor: pointer;
+}
+.genretitle:hover{
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+
+.animtitle:hover{
+    text-decoration: underline;
+    text-decoration-color: aqua;
     
 }
 
@@ -164,4 +221,64 @@
 }
 .crpara{
     color: dimgray;
+}
+
+.animeviewtile{
+    margin: 1% 1%;
+    padding-bottom: 0.5%;
+    display: flex;
+}
+
+.animelisttile{
+    display: flex;
+    color: beige;
+}
+
+.animelisttitle{
+    margin-left: 5%;
+    text-decoration: aqua underline;
+    cursor: pointer;
+ 
+}
+
+
+.genre{
+    margin-top: 3%;
+    margin-left: 5%;
+    width: 150%;
+    display: flex;
+   color: yellow;
+}
+
+.summary{
+    margin-left: 5%;
+    margin-top: 1%;
+    width: 150%;
+}
+
+.summarytext{
+    
+    margin-left: 7%;
+    margin-top: 2%;
+    width: 90%;
+}
+
+.listdivider{
+    height: 5px;
+    background-color: #161616;
+}
+
+.genredivider{
+    height: 100px;
+    background-color: #161616;
+}
+
+.animelistview{
+    background-color: #202020;
+    text-align: center;
+    color: beige;
+    font-size: 34px;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: beige underline;
+    margin-bottom: -2%;
 }
