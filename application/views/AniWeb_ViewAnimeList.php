@@ -8,7 +8,25 @@
                 <button class="btnheadlogin">LOGIN</button>
 
                 <div class="headsearch">
-                        <input type="text" name="searchanime" id="seachanime" class ="txtsearchanime">
+                        <input type="text" name="searchanime" id="seachanime" class ="txtsearchanime" list="animes">
+                        <datalist id="animes">
+                            <option value="Akame Ga Kill!">
+                            <option value="Blend S">
+                            <option value="Chaos;Head">
+                            <option value="DanMachi">
+                            <option value="Eromanga Sensei">
+                            <option value="Fate/Zero">
+                            <option value="Gabriel's Dropout">
+                            <option value="Himouto Umaru-chan">
+                            <option value="IS: Infinite Stratos">
+                            <option value="Log Horizon">
+                            <option value="Made In Abyss">
+                            <option value="No Game No Life">
+                            <option value="Rakudai Kishi no Cavalry">
+                            <option value="S.A.O. : Sword Art Online">
+                            <option value="Tokyo Ghoul">
+                            <option value="Re:Zero Hajimeru Isekatsu">
+                        </datalist>
                         <button class="btnheadsearch">Search</button>
                 </div>
         </div>
@@ -34,10 +52,10 @@
             <div class="animeviewtile">
                 <div class="animelisttile">
                         <div>
-                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/akame_ga_kill.jpg" onclick="watchakamegakill()">
+                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/akame_ga_kill.jpg" onclick="watchanime_akamegakill()">
                         </div>
                         <div> 
-                                <h3 class="animelisttitle">Akame Ga Kill!</h3>
+                                <h3 class="animelisttitle" onclick="watchanime_akamegakill()">Akame Ga Kill!</h3>
                                 <div>
                                         <p class="genre">Genres : Action , Adventure , Fantasy</p>
                                         <p class="summary">Summary :</p>
@@ -52,10 +70,10 @@
             <div class="animeviewtile">
                 <div class="animelisttile">
                         <div>
-                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/blend_s.jpg" onclick="watchblends()">
+                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/blend_s.jpg" onclick="watchanime_blends()">
                         </div>
                         <div> 
-                                <h3 class="animelisttitle">Blend S</h3>
+                                <h3 class="animelisttitle" onclick="watchanime_blends()">Blend S</h3>
                                 <div>
                                         <p class="genre">Genres : Comedy, Seinen, Slice of Life</p>
                                         <p class="summary">Summary :</p>
@@ -70,10 +88,10 @@
             <div class="animeviewtile">
                 <div class="animelisttile">
                         <div>
-                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/chaos_head.jpg" onclick="watchchaoshead()">
+                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/chaos_head.jpg" onclick="watchanime_chaoshead()">
                         </div>
                         <div> 
-                                <h3 class="animelisttitle">Chaos;Head</h3>
+                                <h3 class="animelisttitle" onclick="watchanime_chaoshead()">Chaos;Head</h3>
                                 <div>
                                         <p class="genre">Genres :  Harem, Mystery, Psychological, Sci-Fi, Supernatural</p>
                                         <p class="summary">Summary :</p>
@@ -88,10 +106,10 @@
             <div class="animeviewtile">
                 <div class="animelisttile">
                         <div>
-                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/dan_machi.jpg" onclick="watchdanmachi()">
+                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/dan_machi.jpg" onclick="watchanime_danmachi()">
                         </div>
                         <div> 
-                                <h3 class="animelisttitle">Danmachi</h3>
+                                <h3 class="animelisttitle" onclick="watchanime_danmachi()">Danmachi</h3>
                                 <div>
                                         <p class="genre">Genres :  Action, Adventure, Comedy, Fantasy, Romance</p>
                                         <p class="summary">Summary :</p>
@@ -106,10 +124,10 @@
             <div class="animeviewtile">
                 <div class="animelisttile">
                         <div>
-                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/eromanga_sensei.jpg" onclick="watcheromangasensei()">
+                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/eromanga_sensei.jpg" onclick="watchanime_eromangasensei()">
                         </div>
                         <div> 
-                                <h3 class="animelisttitle">Eromanga Sensei</h3>
+                                <h3 class="animelisttitle" onclick="watchanime_eromangasensei()">Eromanga Sensei</h3>
                                 <div>
                                         <p class="genre">Genres :  Comedy, Drama, Romance</p>
                                         <p class="summary">Summary :</p>
@@ -124,10 +142,10 @@
             <div class="animeviewtile">
                 <div class="animelisttile">
                         <div>
-                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/fate_zero.jpg" onclick="watchfatezero">
+                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/fate_zero.jpg" onclick="watchanime_fatezero">
                         </div>
                         <div> 
-                                <h3 class="animelisttitle">Fate/Zero</h3>
+                                <h3 class="animelisttitle" onclick="watchanime_fatezero">Fate/Zero</h3>
                                 <div>
                                         <p class="genre">Genres :  Action, Fantasy, Supernatural</p>
                                         <p class="summary">Summary :</p>
@@ -142,10 +160,10 @@
             <div class="animeviewtile">
                 <div class="animelisttile">
                         <div>
-                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/gabriel_dropout.jpg" onclick="watchgabrieldropout()">
+                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/gabriel_dropout.jpg" onclick="watchanime_gabrieldropout()">
                         </div>
                         <div> 
-                                <h3 class="animelisttitle">Gabriel Dropout</h3>
+                                <h3 class="animelisttitle" onclick="watchanime_gabrieldropout()">Gabriel Dropout</h3>
                                 <div>
                                         <p class="genre">Genres :  Comedy, School, Shounen, Supernatural</p>
                                         <p class="summary">Summary :</p>
@@ -160,10 +178,10 @@
             <div class="animeviewtile">
                 <div class="animelisttile">
                         <div>
-                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/himouto_umaruchan.jpg" onclick="watchhimoutoumaruchan()">
+                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/himouto_umaruchan.jpg" onclick="watchanime_himoutoumaruchan()">
                         </div>
                         <div> 
-                                <h3 class="animelisttitle">Himouto Umaru-chan!</h3>
+                                <h3 class="animelisttitle" onclick="watchanime_himoutoumaruchan()">Himouto Umaru-chan!</h3>
                                 <div>
                                         <p class="genre">Genres : Comedy, School, Seinen, Slice of Life</p>
                                         <p class="summary">Summary :</p>
@@ -178,10 +196,10 @@
             <div class="animeviewtile">
                 <div class="animelisttile">
                         <div>
-                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/infinite_stratos.jpg" onclick="watchinfinitestratos()">
+                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/infinite_stratos.jpg" onclick="watchanime_infinitestratos()">
                         </div>
                         <div> 
-                                <h3 class="animelisttitle">IS: Infinite Stratos</h3>
+                                <h3 class="animelisttitle" onclick="watchanime_infinitestratos()">IS: Infinite Stratos</h3>
                                 <div>
                                         <p class="genre">Genres :  Action, Comedy, Harem, Mecha, Sci-Fi</p>
                                         <p class="summary">Summary :</p>
@@ -196,10 +214,10 @@
             <div class="animeviewtile">
                 <div class="animelisttile">
                         <div>
-                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/log_horizon.jpg" onclick="watchloghorizon()">
+                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/log_horizon.jpg" onclick="watchanime_loghorizon()">
                         </div>
                         <div> 
-                                <h3 class="animelisttitle">Log Horizon</h3>
+                                <h3 class="animelisttitle" onclick="watchanime_loghorizon()">Log Horizon</h3>
                                 <div>
                                         <p class="genre">Genres : Action, Adventure, Fantasy, Game, Magic</p>
                                         <p class="summary">Summary :</p>
@@ -214,10 +232,10 @@
             <div class="animeviewtile">
                 <div class="animelisttile">
                         <div>
-                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/made_in_abyss.jpg" onclick="watchmadeinabyss()">
+                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/made_in_abyss.jpg" onclick="watchanime_madeinabyss()">
                         </div>
                         <div> 
-                                <h3 class="animelisttitle">Made In Abyss</h3>
+                                <h3 class="animelisttitle" onclick="watchanime_madeinabyss()">Made In Abyss</h3>
                                 <div>
                                         <p class="genre">Genres :  Adventure, Drama, Fantasy, Mystery, Sci-Fi</p>
                                         <p class="summary">Summary :</p>
@@ -232,10 +250,10 @@
             <div class="animeviewtile">
                 <div class="animelisttile">
                         <div>
-                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/nogame_nolife.jpg" onclick="watchnogamenolife()">
+                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/nogame_nolife.jpg" onclick="watchanime_nogamenolife()">
                         </div>
                         <div> 
-                                <h3 class="animelisttitle">No Game No Life</h3>
+                                <h3 class="animelisttitle" onclick="watchanime_nogamenolife()">No Game No Life</h3>
                                 <div>
                                         <p class="genre">Genres :  Adventure, Comedy, Ecchi, Fantasy, Game, Supernatural</p>
                                         <p class="summary">Summary :</p>
@@ -250,10 +268,10 @@
             <div class="animeviewtile">
                 <div class="animelisttile">
                         <div>
-                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/rakudai_kishi.jpg" onclick="watchrakudaikishi()">
+                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/rakudai_kishi.jpg" onclick="watchanime_rakudaikishi()">
                         </div>
                         <div> 
-                                <h3 class="animelisttitle">Rakudai Kishi no Cavalry</h3>
+                                <h3 class="animelisttitle" onclick="watchanime_rakudaikishi()">Rakudai Kishi no Cavalry</h3>
                                 <div>
                                         <p class="genre">Genres :   Action, Ecchi, Fantasy, Romance, School</p>
                                         <p class="summary">Summary :</p>
@@ -268,10 +286,10 @@
             <div class="animeviewtile">
                 <div class="animelisttile">
                         <div>
-                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/sao.jpg" onclick="watcsao()">
+                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/sao.jpg" onclick="watchanime_sao()">
                         </div>
                         <div> 
-                                <h3 class="animelisttitle">S.A.O. : Sword Art Online</h3>
+                                <h3 class="animelisttitle" onclick="watchanime_sao()">S.A.O. : Sword Art Online</h3>
                                 <div>
                                         <p class="genre">Genres :   Action, Adventure, Fantasy, Game, Romance</p>
                                         <p class="summary">Summary :</p>
@@ -286,10 +304,10 @@
             <div class="animeviewtile">
                 <div class="animelisttile">
                         <div>
-                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/tokyo_ghoul.jpg" onclick="watchtokyoghoul()">
+                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/tokyo_ghoul.jpg" onclick="watchanime_tokyoghoul()">
                         </div>
                         <div> 
-                                <h3 class="animelisttitle">Tokyo Ghoul</h3>
+                                <h3 class="animelisttitle" onclick="watchanime_tokyoghoul()">Tokyo Ghoul</h3>
                                 <div>
                                         <p class="genre">Genres :  Action, Drama, Horror, Mystery, Psychological, Seinen, Supernatural</p>
                                         <p class="summary">Summary :</p>
@@ -304,10 +322,10 @@
             <div class="animeviewtile">
                 <div class="animelisttile">
                         <div>
-                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/re_zero.jpg" onclick="watchrezero()">
+                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/re_zero.jpg" onclick="watchanime_rezero()">
                         </div>
                         <div> 
-                                <h3 class="animelisttitle">Re: Zero kara Hajimeru Isekai Seikatsu</h3>
+                                <h3 class="animelisttitle" onclick="watchanime_rezero()">Re: Zero kara Hajimeru Isekai Seikatsu</h3>
                                 <div>
                                         <p class="genre">Genres :  Drama, Fantasy, Psychological, Thriller</p>
                                         <p class="summary">Summary :</p>

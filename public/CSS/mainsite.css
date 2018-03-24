@@ -42,6 +42,26 @@
     color:  black;
 }
 
+.btndownload{
+    margin: 5% 25%;
+    width: 50%;
+    height: 55px;
+    border-radius: 5px;
+    border: none;
+    background-color: lightseagreen;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+}
+
+.btndownload:hover{
+    background-color: crimson;
+    color:  black;
+}
+
 .headsearch{
     display: -webkit-inline-flex;
     display: flex;
@@ -172,6 +192,11 @@
 
 }
 
+.animewatchtile{
+    background-color: #161616;
+    padding-top: 0.3%;
+}
+
 .animtitle{
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -233,6 +258,14 @@
     display: flex;
     color: beige;
 }
+.animewatchtile{
+    display: flex;
+    color: beige;
+    background-color: #202020;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+}
 
 .animelisttitle{
     margin-left: 5%;
@@ -281,4 +314,23 @@
     font-family:'Courier New', Courier, monospace;
     text-decoration: beige underline;
     margin-bottom: -2%;
+}
+
+.videoarea{
+    padding: 2% 2%;
+    margin: 2% 0%;
+    background-color: #202020;
+    border-radius: 15px;
+
+}
+
+.videoplayarea{
+    margin: 0% 14.5%;
+    border-radius: 15px;
+}
+
+.episodenum{
+    font-size: 21px;
+    margin: 2% 41%;
+    font-family: 'Courier New', Courier, monospace;
 }

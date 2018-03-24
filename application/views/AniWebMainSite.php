@@ -8,7 +8,25 @@
                 <button class="btnheadlogin">LOGIN</button>
 
                 <div class="headsearch">
-                        <input type="text" name="searchanime" id="seachanime" class ="txtsearchanime" autocomplete="on">
+                        <input type="text" name="searchanime" id="seachanime" class ="txtsearchanime" autocomplete="on" list="animes">
+                            <datalist id="animes">
+                                <option value="Akame Ga Kill!">
+                                <option value="Blend S">
+                                <option value="Chaos;Head">
+                                <option value="DanMachi">
+                                <option value="Eromanga Sensei">
+                                <option value="Fate/Zero">
+                                <option value="Gabriel's Dropout">
+                                <option value="Himouto Umaru-chan">
+                                <option value="IS: Infinite Stratos">
+                                <option value="Log Horizon">
+                                <option value="Made In Abyss">
+                                <option value="No Game No Life">
+                                <option value="Rakudai Kishi no Cavalry">
+                                <option value="S.A.O. : Sword Art Online">
+                                <option value="Tokyo Ghoul">
+                                <option value="Re:Zero Hajimeru Isekatsu">
+                            </datalist>
                         <button class="btnheadsearch">Search</button>
                 </div>
         </div>
@@ -33,23 +51,23 @@
         <div class="animetile">
 
             <div class="animpictile">
-                 <img class="animpic" src="<?php echo base_url(); ?>public/SRC/akame_ga_kill.jpg" onclick="watchakamegakill()">
-                 <p class="animtitle" onclick="watchakamegakill()">Akame Ga Kill!</p>
+                 <img class="animpic" src="<?php echo base_url(); ?>public/SRC/akame_ga_kill.jpg" onclick="watchanime_akamegakill()">
+                 <p class="animtitle" onclick="watchanime_akamegakill()">Akame Ga Kill!</p>
             </div>
                
             <div class="animpictile">
                  <img class="animpic" src="<?php echo base_url(); ?>public/SRC/blend_s.jpg" onclick="watchblends()">
-                 <p class="animtitle" onclick="watchblends()">Blend S</p>
+                 <p class="animtitle" onclick="watchanime_blends()">Blend S</p>
             </div>
                
             <div class="animpictile">
-                  <img class="animpic" src="<?php echo base_url(); ?>public/SRC/chaos_head.jpg" onclick="watchchaoshead()">
-                  <p class="animtitle" onclick="watchchaoshead()">Chaos;Head</p>
+                  <img class="animpic" src="<?php echo base_url(); ?>public/SRC/chaos_head.jpg" onclick="watchanime_chaoshead()">
+                  <p class="animtitle" onclick="watchanime_chaoshead()">Chaos;Head</p>
             </div>
               
             <div class="animpictile">
-                <img class="animpic" src="<?php echo base_url(); ?>public/SRC/dan_machi.jpg" onclick="watchdanmachi()">
-                <p class="animtitle" onclick="watchdanmachi()">DanMachi</p>
+                <img class="animpic" src="<?php echo base_url(); ?>public/SRC/dan_machi.jpg" onclick="watchanime_danmachi()">
+                <p class="animtitle" onclick="watchanime_danmachi()">DanMachi</p>
             </div>
                 
 
@@ -57,67 +75,67 @@
         
         <div class="animetile">
                 <div class="animpictile">
-                        <img class="animpic" src="<?php echo base_url(); ?>public/SRC/eromanga_sensei.jpg" onclick="watcheromangasensei()">
-                        <p class="animtitle" onclick="watcheromangasensei()">Eromanga Sensei</p>
+                        <img class="animpic" src="<?php echo base_url(); ?>public/SRC/eromanga_sensei.jpg" onclick="watchanime_eromangasensei()">
+                        <p class="animtitle" onclick="watchanime_eromangasensei()">Eromanga Sensei</p>
                    </div>
                       
                    <div class="animpictile">
-                        <img class="animpic" src="<?php echo base_url(); ?>public/SRC/fate_zero.jpg" onclick="watchfatezero()">
-                        <p class="animtitle" onclick="watchfatezero()">Fate/Zero</p>
+                        <img class="animpic" src="<?php echo base_url(); ?>public/SRC/fate_zero.jpg" onclick="watchanime_fatezero()">
+                        <p class="animtitle" onclick="watchanime_fatezero()">Fate/Zero</p>
                    </div><map name=""></map>
                       
                    <div class="animpictile">
-                         <img class="animpic" src="<?php echo base_url(); ?>public/SRC/gabriel_dropout.jpg" onclick="watchgabrieldropout()">
-                         <p class="animtitle" onclick="watchgabrieldropout()">Gabriel Dropout</p>
+                         <img class="animpic" src="<?php echo base_url(); ?>public/SRC/gabriel_dropout.jpg" onclick="watchanime_gabrieldropout()">
+                         <p class="animtitle" onclick="watchanime_gabrieldropout()">Gabriel Dropout</p>
                    </div>
                      
                    <div class="animpictile">
-                       <img class="animpic" src="<?php echo base_url(); ?>public/SRC/himouto_umaruchan.jpg" onclick="watchhimoutoumaruchan()">
-                       <p class="animtitle" onclick="watchhimoutoumaruchan()">Himouto Umaru-chan</p>
+                       <img class="animpic" src="<?php echo base_url(); ?>public/SRC/himouto_umaruchan.jpg" onclick="watchanime_himoutoumaruchan()">
+                       <p class="animtitle" onclick="watchanime_himoutoumaruchan()">Himouto Umaru-chan</p>
                    </div>
         </div>
 
         <div class="animetile">
                 <div class="animpictile">
-                        <img class="animpic" src="<?php echo base_url(); ?>public/SRC/infinite_stratos.jpg" onclick="watchinfinitestratos()">
-                        <p class="animtitle" onclick="watchinfinitestratos()">Infinite Stratos</p>
+                        <img class="animpic" src="<?php echo base_url(); ?>public/SRC/infinite_stratos.jpg" onclick="watchanime_infinitestratos()">
+                        <p class="animtitle" onclick="watchanime_infinitestratos()">Infinite Stratos</p>
                    </div>
                       
                    <div class="animpictile">
-                        <img class="animpic" src="<?php echo base_url(); ?>public/SRC/log_horizon.jpg" onclick="watchloghorizon()">
+                        <img class="animpic" src="<?php echo base_url(); ?>public/SRC/log_horizon.jpg" onclick="watchanime_loghorizon()">
                         <p class="animtitle">Log Horizon</p>
                    </div>
                       
                    <div class="animpictile">
-                         <img class="animpic" src="<?php echo base_url(); ?>public/SRC/made_in_abyss.jpg" onclick="watchmadeinabyss()">
-                         <p class="animtitle" onclick="watchloghorizon()">Made in Abyss</p>
+                         <img class="animpic" src="<?php echo base_url(); ?>public/SRC/made_in_abyss.jpg" onclick="watchanime_madeinabyss()">
+                         <p class="animtitle" onclick="watchanime_loghorizon()">Made in Abyss</p>
                    </div>
                      
                    <div class="animpictile">
-                       <img class="animpic" src="<?php echo base_url(); ?>public/SRC/nogame_nolife.jpg" onclick="watchnogamenolife()">
-                       <p class="animtitle" onclick="watchnogamenolife()">No Game No Life</p>
+                       <img class="animpic" src="<?php echo base_url(); ?>public/SRC/nogame_nolife.jpg" onclick="watchanime_nogamenolife()">
+                       <p class="animtitle" onclick="watchanime_nogamenolife()">No Game No Life</p>
                    </div>
         </div>
 
         <div class="animetile">
                 <div class="animpictile">
-                        <img class="animpic" src="<?php echo base_url(); ?>public/SRC/rakudai_kishi.jpg" onclick="watchrakudaikishi()">
-                        <p class="animtitle" onclick="watchrakudaikishi()">Rakudai Kishi</p>
+                        <img class="animpic" src="<?php echo base_url(); ?>public/SRC/rakudai_kishi.jpg" onclick="watchanime_rakudaikishi()">
+                        <p class="animtitle" onclick="watchanime_rakudaikishi()">Rakudai Kishi</p>
                    </div>
                       
                    <div class="animpictile">
-                        <img class="animpic" src="<?php echo base_url(); ?>public/SRC/sao.jpg" onclick="watchsao()">
-                        <p class="animtitle" onclick="watchsao()">S.A.O.</p>
+                        <img class="animpic" src="<?php echo base_url(); ?>public/SRC/sao.jpg" onclick="watchanime_sao()">
+                        <p class="animtitle" onclick="watchanime_sao()">S.A.O.</p>
                    </div>
                       
                    <div class="animpictile">
-                         <img class="animpic" src="<?php echo base_url(); ?>public/SRC/tokyo_ghoul.jpg" onclick="watchtokyoghoul()">
-                         <p class="animtitle" onclick="watchtokyoghoul()">Tokyo Ghoul</p>
+                         <img class="animpic" src="<?php echo base_url(); ?>public/SRC/tokyo_ghoul.jpg" onclick="watchanime_tokyoghoul()">
+                         <p class="animtitle" onclick="watchanime_tokyoghoul()">Tokyo Ghoul</p>
                    </div>
                      
                    <div class="animpictile">
-                       <img class="animpic" src="<?php echo base_url(); ?>public/SRC/re_zero.jpg" onclick="watchrezero()">
-                       <p class="animtitle" onclick="watchrezero()">Re:Zero</p>
+                       <img class="animpic" src="<?php echo base_url(); ?>public/SRC/re_zero.jpg" onclick="watchanime_rezero()">
+                       <p class="animtitle" onclick="watchanime_rezero()">Re:Zero</p>
                    </div>
         </div>
 
