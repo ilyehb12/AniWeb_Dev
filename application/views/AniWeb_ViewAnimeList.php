@@ -27,7 +27,7 @@
                             <option value="Tokyo Ghoul">
                             <option value="Re:Zero Hajimeru Isekatsu">
                         </datalist>
-                        <button class="btnheadsearch">Search</button>
+                        <button class="btnheadsearch" onclick="searchanime()">Search</button>
                 </div>
         </div>
       

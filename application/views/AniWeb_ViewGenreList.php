@@ -8,8 +8,26 @@
                 <button class="btnheadlogin">LOGIN</button>
 
                 <div class="headsearch">
-                        <input type="text" name="searchanime" id="seachanime" class ="txtsearchanime">
-                        <button class="btnheadsearch">Search</button>
+                        <input type="text" name="searchanime" id="seachanime" class ="txtsearchanime" autocomplete="on" list="animes">
+                            <datalist id="animes">
+                                <option value="Akame Ga Kill!">
+                                <option value="Blend S">
+                                <option value="Chaos;Head">
+                                <option value="DanMachi">
+                                <option value="Eromanga Sensei">
+                                <option value="Fate/Zero">
+                                <option value="Gabriel's Dropout">
+                                <option value="Himouto Umaru-chan">
+                                <option value="IS: Infinite Stratos">
+                                <option value="Log Horizon">
+                                <option value="Made In Abyss">
+                                <option value="No Game No Life">
+                                <option value="Rakudai Kishi no Cavalry">
+                                <option value="S.A.O. : Sword Art Online">
+                                <option value="Tokyo Ghoul">
+                                <option value="Re:Zero Hajimeru Isekatsu">
+                            </datalist>
+                        <button class="btnheadsearch" onclick="searchanime()">Search</button>
                 </div>
         </div>
       

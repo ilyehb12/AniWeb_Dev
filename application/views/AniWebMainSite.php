@@ -27,7 +27,7 @@
                                 <option value="Tokyo Ghoul">
                                 <option value="Re:Zero Hajimeru Isekatsu">
                             </datalist>
-                        <button class="btnheadsearch">Search</button>
+                        <button class="btnheadsearch" onclick="searchanime()">Search</button>
                 </div>
         </div>
       
@@ -56,7 +56,7 @@
             </div>
                
             <div class="animpictile">
-                 <img class="animpic" src="<?php echo base_url(); ?>public/SRC/blend_s.jpg" onclick="watchblends()">
+                 <img class="animpic" src="<?php echo base_url(); ?>public/SRC/blend_s.jpg" onclick="watchanime_blends()">
                  <p class="animtitle" onclick="watchanime_blends()">Blend S</p>
             </div>
                

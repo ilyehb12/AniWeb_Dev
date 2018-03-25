@@ -8,25 +8,26 @@
                 <button class="btnheadlogin">LOGIN</button>
 
                 <div class="headsearch">
-                        <input type="text" name="searchanime" id="seachanime" class ="txtsearchanime" autocomplete="on" list="animes">
-                            <datalist id="animes">
-                                <option value="Akame Ga Kill!">
-                                <option value="Blend S">
-                                <option value="Chaos;Head">
-                                <option value="DanMachi">
-                                <option value="Eromanga Sensei">
-                                <option value="Fate/Zero">
-                                <option value="Gabriel's Dropout">
-                                <option value="Himouto Umaru-chan">
-                                <option value="IS: Infinite Stratos">
-                                <option value="Log Horizon">
-                                <option value="Made In Abyss">
-                                <option value="No Game No Life">
-                                <option value="Rakudai Kishi no Cavalry">
-                                <option value="S.A.O. : Sword Art Online">
-                                <option value="Tokyo Ghoul">
-                                <option value="Re:Zero Hajimeru Isekatsu">
-                            </datalist>
+                        <input type="text" name="searchanime" id="seachanime" class ="txtsearchanime"list="animes">
+                        <datalist id="animes">
+                            <option value="Akame Ga Kill!">
+                            <option value="Blend S">
+                            <option value="Chaos;Head">
+                            <option value="DanMachi">
+                            <option value="Eromanga Sensei">
+                            <option value="Fate/Zero">
+                            <option value="Gabriel's Dropout">
+                            <option value="Himouto Umaru-chan">
+                            <option value="IS: Infinite Stratos">
+                            <option value="Log Horizon">
+                            <option value="Made In Abyss">
+                            <option value="No Game No Life">
+                            <option value="Rakudai Kishi no Cavalry">
+                            <option value="S.A.O. : Sword Art Online">
+                            <option value="Tokyo Ghoul">
+                            <option value="Re:Zero Hajimeru Isekatsu">
+                        </datalist>
+
                         <button class="btnheadsearch" onclick="searchanime()">Search</button>
                 </div>
         </div>
@@ -50,14 +51,14 @@
     <div class="animeviewtile">
     <div class="animewatchtile">
                         <div>
-                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/akame_ga_kill.jpg">
+                        <img class="animpiclist" src="<?php echo base_url(); ?>public/SRC/blend_s.jpg">
                         </div>
                         <div> 
-                                <h3 class="animelisttitle">Akame Ga Kill!</h3>
+                        <h3 class="animelisttitle" onclick="watchanime_blends()">Blend S</h3>
                                 <div>
-                                        <p class="genre">Genres : Action , Adventure , Fantasy</p>
+                                        <p class="genre">Genres : Comedy, Seinen, Slice of Life</p>
                                         <p class="summary">Summary :</p>
-                                        <p class="summarytext"> In a fantasy world, fighter Tatsumi sets out for the Capitol to earn money for his starving village, and finds a world of unimaginable corruption, all spreading from the depraved Prime Minister who controls the child Emperor's ear. After nearly becoming a victim of this corruption himself, Tatsumi is recruited by Night Raid, a group of assassins dedicated to eliminating the corruption plaguing the Capitol by mercilessly killing those responsible.</p>    
+                                        <p class="summarytext"> High school girl Maika Sakuranomiya has trouble finding a part-time job because of how scary she looks when smiling. However, she is scouted one day by an Italian man who is also the manager of Stile, a café where its waitresses are given unique traits such as tsundere and younger sister. Maika is given a sadist trait because of her looks and has to adopt a dominant and cruel persona when servicing customers, particularly masochist ones.</p>    
                                 </div>
                         </div>       
                 </div>
@@ -66,7 +67,7 @@
     </div>
 
     <div class="videoarea">
-                        <select class="episodenum" id="episodenum" onchange="playepisodes_akamegakill()">
+                        <select class="episodenum" id="episodenum" onchange="playepisodes_blends()">
                                 <option value="1">Episode 1</option>
                                 <option value="2">Episode 2</option>
                                 <option value="3">Episode 3</option>
@@ -79,25 +80,13 @@
                                 <option value="10">Episode 10</option>
                                 <option value="11">Episode 11</option>
                                 <option value="12">Episode 12</option>
-                                <option value="13">Episode 13</option>
-                                <option value="14">Episode 14</option>
-                                <option value="15">Episode 15</option>
-                                <option value="16">Episode 16</option>
-                                <option value="17">Episode 17</option>
-                                <option value="18">Episode 18</option>
-                                <option value="19">Episode 19</option>
-                                <option value="20">Episode 20</option>
-                                <option value="21">Episode 21</option>
-                                <option value="22">Episode 22</option>
-                                <option value="23">Episode 23</option>
-                                <option value="24">Episode 24</option>
                         </select>
         <video controls controlsList="nodownload" class="videoplayarea">
                 <source src="<?php echo base_url(); ?>public/SRC/VIDEOS/samplevid.mp4" type="video/mp4" >
                 Your browser does not support HTML5 video.
         </video>
 
-        <!-- <button class="btndownload"><a href="<?php echo base_url(); ?>public/SRC/VIDEOS/samplevid.mp4" download>DOWNLOAD</a></button> -->
+        <!-- <button class="btndownload"><a href="public/SRC/VIDEOS/samplevid.mp4" download>DOWNLOAD</a></button> -->
         <hr style="margin-top: 3%;">
     <!-- <h3 style="color:beige; margin: 0% 44%;">Episode List</h3>
     <hr>
