@@ -20,7 +20,6 @@ class awmain extends CI_Controller {
 	 */
 	public function loadmain()
 	{
-	
 		$this->load->helper('url');
 		$this->load->view('aw_header');
 		$this->load->view('AniWebMainSite');
@@ -48,6 +47,14 @@ class awmain extends CI_Controller {
 		$this->load->helper('url');
 		$this->load->view('aw_header');
 		$this->load->view('AniWeb_ViewAbout');
+		$this->load->view('aw_footer');
+	}
+
+		public function register()
+	{
+		$this->load->helper('url');
+		$this->load->view('aw_header');
+		$this->load->view('register');
 		$this->load->view('aw_footer');
 	}
 

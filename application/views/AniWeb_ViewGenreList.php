@@ -1,12 +1,38 @@
-
+<?php include('server.php') ?>
 <body class="body">
     <div class="head">
         <div class="headlogo">
                 <img class="aniweblogo" src="<?php echo base_url(); ?>public/SRC/fapmirallogo.png">
         </div>
         <div class="headlogin">
-                <button class="btnheadlogin">LOGIN</button>
-
+        <button id="myBtn"s class="btnheadlogin" onclick="register()">LOGIN</button>
+                                    <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <div class="Box">
+                    <img src="<?php echo base_url(); ?>public/SRC/prompicleft.png" class="user">
+                        <h2>AniWeb</h2><br>
+                        <h4>SignIn</h4>
+                    <form method="post" action="loadmain">
+                      <?php include('errors.php'); ?>
+                      <div>
+                        <p>Username</p>
+                        <input type="text" name="username" placeholder="Enter Username">
+                      </div>
+                      <div>
+                        <p>Password</p>
+                        <input type="password" name="password" placeholder="Enter Password">
+                      </div>
+                      <div>
+                        <input type="submit" name="login_user" value="SignIn">
+                      </div>
+                      <p>
+                        Not yet a member? <a href="register">Register</a>
+                      </p>
+                    </form>
+                  </div>
+                    </div></div>
                 <div class="headsearch">
                         <input type="text" name="searchanime" id="seachanime" class ="txtsearchanime" autocomplete="on" list="animes">
                             <datalist id="animes">

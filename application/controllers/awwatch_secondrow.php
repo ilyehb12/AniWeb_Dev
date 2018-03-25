@@ -18,6 +18,14 @@ class awwatch_secondrow extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+	public function register()
+	{
+		$this->load->helper('url');
+		$this->load->view('aw_header');
+		$this->load->view('register');
+		$this->load->view('aw_footer');
+	}
+
 	
 	public function watcheromangasensei_eps1()
 	{
