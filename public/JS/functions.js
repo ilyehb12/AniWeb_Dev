@@ -51,6 +51,30 @@ function watchanime_eromangasensei() {
     
 }
 
+function watchanime_fatezero() {
+    
+    window.location.replace("http://localhost/AniWeb/index.php/awwatch_secondrow/watchfatezero_eps1");
+    
+}
+
+function watchanime_gabrieldropout() {
+    
+    window.location.replace("http://localhost/AniWeb/index.php/awwatch_secondrow/watchgabrieldropout_eps1");
+    
+}
+
+function watchanime_himoutoumaruchan() {
+    
+    window.location.replace("http://localhost/AniWeb/index.php/awwatch_secondrow/watchhimoutoumaruchan_eps1");
+    
+}
+
+function watchanime_infinitestratos() {
+    
+    window.location.replace("http://localhost/AniWeb/index.php/awwatch_thirdrow/watchinfinitestratos_eps1");
+    
+}
+
 function searchanime() {
     animetitle = document.getElementById('seachanime').value;
     if (animetitle == "Akame Ga Kill!") {
@@ -67,6 +91,18 @@ function searchanime() {
     }
     else if (animetitle == "Eromanga Sensei") {
         watchanime_eromangasensei();
+    }
+    else if (animetitle == "Fate/Zero") {
+        watchanime_fatezero();
+    }
+    else if (animetitle == "Gabriel's Dropout") {
+        watchanime_gabrieldropout();
+    }
+    else if (animetitle == "Himouto Umaruchan") {
+        watchanime_himoutoumaruchan();
+    }
+    else if (animetitle == "IS: Infinite Stratos") {
+        watchanime_infinitestratos();
     }
 }
 
