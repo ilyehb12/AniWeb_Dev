@@ -28,7 +28,7 @@
                         <input type="submit" name="login_user" value="SignIn">
                       </div>
                       <p>
-                        Not yet a member? <a href="register">Register</a>
+                        Not yet a member? <a href="register">Register Here</a>
                       </p>
                     </form>
                   </div>
